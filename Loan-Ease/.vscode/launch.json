@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Loan Approval System",
+            "request": "launch",
+            "mainClass": "loanapproval.LoanApprovalSystem",
+            "projectName": "Loan Approval System",
+            "sourcePaths": ["${workspaceFolder}/src/main/java"],
+            "classPaths": [
+                "${workspaceFolder}/out",
+                "${workspaceFolder}/mysql-connector-j-9.2.0.jar"
+            ],
+            "args": "",
+            "vmArgs": "-Dfile.encoding=UTF-8",
+            "preLaunchTask": "Build Java Project"
+        }
+    ]
+} 

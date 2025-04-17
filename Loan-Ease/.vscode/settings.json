@@ -1,0 +1,20 @@
+{
+    "java.project.sourcePaths": [
+        "src/main/java"
+    ],
+    "java.project.outputPath": "out",
+    "java.project.referencedLibraries": [
+        "mysql-connector-j-9.2.0.jar"
+    ],
+    "java.format.settings.url": "eclipse-formatter.xml",
+    "java.completion.importOrder": [
+        "java",
+        "javax",
+        "loanapproval",
+        ""
+    ],
+    "java.debug.settings.enableRunDebugCodeLens": true,
+    "java.debug.settings.hotCodeReplace": "auto",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "automatic"
+} 

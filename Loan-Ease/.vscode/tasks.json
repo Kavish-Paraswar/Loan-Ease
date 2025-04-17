@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Java Project",
+            "type": "shell",
+            "command": "javac -d ${workspaceFolder}/out -cp \"${workspaceFolder}/mysql-connector-j-9.2.0.jar\" -sourcepath ${workspaceFolder}/src/main/java ${workspaceFolder}/src/main/java/loanapproval/LoanApprovalSystem.java",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$javac"],
+            "presentation": {
+                "reveal": "always"
+            }
+        }
+    ]
+} 
